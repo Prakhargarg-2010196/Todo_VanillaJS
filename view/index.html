@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoJS</title>
+</head>
+<body>
+    <main>
+        <header>Todo Application: For all your todos</header> 
+        
+        <section id="todo-input">
+            <h1 class="heading ">Todo Input</h1>
+            <div class="container">
+                <form class="todo__form">
+                    <input type="text" class="todo-input__form__input" placeholder="Enter the details of the Todo">
+                    <button type="button" class="btn btn--create">CREATE</button>
+                </form>
+            </div>
+        </section>
+        <section id="todo-view">
+            <h1 class="heading">Todo View</h1>
+            <div class="container">
+                  <div class="todo-info">
+                      <!-- HERE ALL TODOS ARE TO BE REPRESENTED USING DOM -->
+                      <!-- BASIC TODO STRUCTURE -->
+                    <div class="todo-info__todo-text"></div>
+                    <div class="todo-info__todo-buttons">
+                        <!--TODO: ADD ICONS IN THIS BUTTONS -->
+                        <button type="button" class="btn btn--update">UPDATE</button>
+                        <button type="button" class="btn btn--DELETE">DELETE</button>
+                    </div>
+                  </div>
+            </div>
+        </section>    
+    </main>
+    
+</body>
+</html>
